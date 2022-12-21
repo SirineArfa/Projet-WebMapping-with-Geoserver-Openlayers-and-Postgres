@@ -29,7 +29,7 @@ You should have installed on your machine the following software:
 
 
 ###### Pipeline
-This project is brought down into 4 main steps:
+This project is brought down into 3 main steps:
 
 ![gis3](https://user-images.githubusercontent.com/80635318/208999275-1a5368ea-6109-421e-8945-8f3741a053a7.PNG)
 1. ###### PostGIS/PostgreSQL:
