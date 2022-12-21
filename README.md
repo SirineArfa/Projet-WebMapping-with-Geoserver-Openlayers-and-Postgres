@@ -50,6 +50,8 @@ OpenLayers for data visualization (webmapping)
 The main task is to save a polygon,point or a line that was drawn in Openlayers into the PostGIS database.
 For example assuming that you already have a list of coordinates that describe your polygons (the result from the console.log ) and also assuming you are using WGS84 projection and SRID=4326 (SRID, Spatial Reference Identifier) then a simple query using `ST_GeomFromText(text, srid)` should do the job.
 You should before that create a `polygones` relation in your PostGIS database t store the coordinates of the drown polygon as well as for the points relation and the line relation.
+![poly](https://user-images.githubusercontent.com/80635318/209005985-5b8ebcce-77d7-49e9-8e8c-8a37663057b2.PNG)
+
 
 
 
