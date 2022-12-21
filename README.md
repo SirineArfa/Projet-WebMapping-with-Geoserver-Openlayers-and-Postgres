@@ -23,8 +23,10 @@ Then I applied the same work on the data related to Tunisia.
 
 You should have installed on your machine the following software:
 - Geoserver `2.21.2`
-- PostGressql `11.18.1`
+- PostgreSQL `11.18.1`
+- PostGIS `2.3.2`
 - pgAdmin `4`
+
 
 ###### Pipeline
 This project is brought down into 4 main steps:
