@@ -52,6 +52,11 @@ For example assuming that you already have a list of coordinates that describe y
 You should before that create a `polygones` relation in your PostGIS database t store the coordinates of the drown polygon as well as for the points relation and the line relation.
 ![poly](https://user-images.githubusercontent.com/80635318/209005985-5b8ebcce-77d7-49e9-8e8c-8a37663057b2.PNG)
 
+![2](https://user-images.githubusercontent.com/80635318/210434921-6bebf55e-cd59-4cf9-8535-8f6c52b30f17.PNG)
+![3](https://user-images.githubusercontent.com/80635318/210434928-bfd0968d-3957-4615-ba53-463339ff13d3.PNG)
+![4](https://user-images.githubusercontent.com/80635318/210434940-26e74b42-a734-459b-bf37-0b44361151c3.PNG)
+![1](https://user-images.githubusercontent.com/80635318/210434956-680fa0c9-ef34-45e6-8a41-7ea8de5ca621.PNG)
+
 
 
 
