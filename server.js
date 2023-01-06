@@ -19,8 +19,8 @@ app.post('/save-point', function(req, res) {
   // Connect to the database
   const client = new pg.Client({
     host: 'localhost',
-    user: 'postgres',
-    password: 'Sirinearfa12@',
+    user: '',
+    password: '',
     database: 'Geoserver_db'
   });
   client.connect();
@@ -44,8 +44,8 @@ app.post('/save-point', function(req, res) {
     // Connect to the database
     const client = new pg.Client({
       host: 'localhost',
-      user: 'postgres',
-      password: 'Sirinearfa12@',
+      user: '',
+      password: '',
       database: 'Geoserver_db'
     });
     client.connect();
@@ -81,8 +81,8 @@ app.post('/save-polygon', function(req, res) {
    // Connect to the database
    const client = new pg.Client({
     host: 'localhost',
-    user: 'postgres',
-    password: 'Sirinearfa12@',
+    user: '',
+    password: '',
     database: 'Geoserver_db'
   });
   client.connect();
@@ -116,8 +116,8 @@ app.post('/save-polygon', function(req, res) {
 app.get('/api/points/:id', (req, res) => {
   const client = new pg.Client({
     host: 'localhost',
-    user: 'postgres',
-    password: 'Sirinearfa12@',
+    user: '',
+    password: '',
     database: 'Geoserver_db'
   });
   client.connect();
@@ -142,8 +142,8 @@ app.get('/api/points/:id', (req, res) => {
 app.get('/api/lines/:id', (req, res) => {
   const client = new pg.Client({
     host: 'localhost',
-    user: 'postgres',
-    password: 'Sirinearfa12@',
+    user: '',
+    password: '',
     database: 'Geoserver_db'
   });
   client.connect();
@@ -168,8 +168,8 @@ app.get('/api/lines/:id', (req, res) => {
 app.get('/api/polygons/:id', (req, res) => {
   const client = new pg.Client({
     host: 'localhost',
-    user: 'postgres',
-    password: 'Sirinearfa12@',
+    user: '',
+    password: '',
     database: 'Geoserver_db'
   });
   client.connect();
